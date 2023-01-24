@@ -1,26 +1,28 @@
-@font-face {
-  font-family: 'Futura PT';
-  src: url('../font/FuturaPT-Medium.eot');
-  src: local('../font/Futura PT Medium'), local('../font/Futura PT Medium'),
-  url('../font/FuturaPT-Medium.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Futura PT';
-  src: url('../font/FuturaPT-Light.eot');
-  src: local('../font/Futura PT Light'), local('../font/Futura PT Light'),
-  url('../font/FuturaPT-Light.ttf') format('truetype');
-  font-weight: 300;
-  font-style: normal;
-}
+/* @font-face { */
+  /* font-family: 'Futura PT'; */
+  /* src: url('../font/FuturaPT-Medium.eot'); */
+  /* src: local('../font/Futura PT Medium'), local('../font/Futura PT Medium'), */
+  /* url('../font/FuturaPT-Medium.ttf') format('truetype'); */
+  /* font-weight: 400; */
+  /* font-style: normal; */
+/* } */
+/* @font-face { */
+  /* font-family: 'Futura PT'; */
+  /* src: url('../font/FuturaPT-Light.eot'); */
+  /* src: local('../font/Futura PT Light'), local('../font/Futura PT Light'), */
+  /* url('../font/FuturaPT-Light.ttf') format('truetype'); */
+  /* font-weight: 300; */
+  /* font-style: normal; */
+/* } */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
 
 body, html{
   font-size: 62.5%;
 }
 
 :root {
-  font-family: 'Futura PT', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   background-color: #678ff2;
   color: #ffffff;
