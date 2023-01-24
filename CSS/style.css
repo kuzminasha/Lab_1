@@ -51,10 +51,8 @@ a {
 #main {
   font-size: 2.3rem;
   line-height: 1.3;
-  /* width: 11.8125rem; */
   padding-top: 1.1rem;
   padding-bottom: 0.97rem;
-  padding-right: 4rem;
   padding-left: 2.9rem;
 }
 
@@ -74,6 +72,7 @@ a {
   color: var(--primary-color);
   margin-left: 2.8rem;
   margin-right: 2.5rem;
+  width: 32.1rem;
   /* margin-top: 134px; */
   /* margin-bottom: 111px; */
 }
