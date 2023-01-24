@@ -12,29 +12,33 @@
   </head>
   <body>
     <header>
-      <a href="#index.html" id="main">CLOUD <span class="bold">FLEX</span></a>
-      <button name="menu" class="menu"><img src="menu_.png" alt="" /></button>
+      <div class = "header">
+        <a href="#index.html" id="main">CLOUD <span class="bold">FLEX</span></a>
+        <button name="menu" class="menu"><img src="menu_.png" alt="" /></button>
+      </div>
     </header>
     <main>
       <section>
         <h1 span class="hide"></span>Заголовок 1</h1>
         <p id="performance">WHEN PERFORMANCE MATTERS</p>
-        <a href="#" id="start">Start development with us</a>
-        <p id="scroll">Scroll down</p>
-        <img src="pigeon.png" alt="" />
-        <p id="cookies">
-          WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. THROUGH YOUR CONTINUED
-          USE OF THIS SITE YOU ACCEPT THIS USE. FOR MORE INFORMATION, PLEASE SEE
-          OUR PRIVACY POLICY.
-        </p>
-        <button name="cookies" id="accept">ACCEPT</button>
+        <a href="#" class="start">Start development with us</a>
+        <div class="accept_cookies">  
+          <p id="scroll">Scroll down</p>
+          <img src="pigeon.png" alt="" />
+          <p id="cookies">
+            WE USE COOKIES TO ENSURE YOUR BEST EXPERIENCE. THROUGH YOUR CONTINUED
+            USE OF THIS SITE YOU ACCEPT THIS USE. FOR MORE INFORMATION, PLEASE SEE
+            OUR PRIVACY POLICY.
+          </p>
+          <button name="cookies" id="accept">ACCEPT</button>
+        </div>
       </section>
-      <section section="2">
+      <section class="section_2">
         <h2 id="work" span class="hide">HOW WE WORK</h2>
-        <ul id="howlist">
+        <ul class="howlist">
           <li>
             <img src="development.png" alt="" />
-            <h3 id="howlist_development">Development</h3>
+            <h3 class="headwork howlist_development">Development</h3>
             <p class="howlist_development">
               Using best practices to make reliable, well-documented and easy to
               maintain system.
@@ -159,28 +163,34 @@
       </section>
       <form>
         <p class="forminvate">Ready to get started? Drop us a line!</p>
+        <section class="form_input">
         <label class="input">
-          <span class="form"> Имя </span>
+          <div class="form"> Имя </div>
           <input type="text" name="name" placeholder="Name" />
         </label>
         <label class="input">
-          <span class="form"> Email </span>
+          <div class="form"> Email </div>
           <input type="text" name="email" placeholder="Email" />
         </label>
         <label class="input">
-          <span class="form"> What we can do for you? </span>
+          <div class="form"> What we can do for you? </div>
           <input type="text" name="what we can do" placeholder="What we can do for you?" />
         </label>
         <button class="send">Send</button>
+      </section>
       </form>
     </main>
     <footer>
       <a href="#"><img src="icon.png" alt="" /></a>
       <a href="#"><img src="icon.png" alt="" /></a>
       <a href="#"><img src="icon.png" alt="" /></a>
-      <a href="#" class="terms_and_policy">Terms of Use</a>
-      <a href="#" class="terms_and_policy">Privacy Policy</a>
-      <p id="end">© CloudFlex 2019. All Rights Reserved.</p>
+      <div class="footer">
+        <div class ="terms_and_policy">
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+      <p class="end">© CloudFlex 2019. All Rights Reserved.</p>
+    </div>
     </footer>
   </body>
 </html>
