@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/reseter.css" />
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html" class="main">CLOUD <span class="bold">FLEX</span></a>
+            <button name="menu" class="menu"><img src="menu_.png" alt="" /></button>
+        </div>
+    </header>
+    <main>
+        <form name="contact" method="POST" data-netlify="true" action="" class="contact">
+            <fieldset class="fieldset">
+                <legend>Личная информация</legend>
+                <lable>
+                    <p>Имя</p><input type="text" name="name" placeholder="Введите имя" required>
+                </lable>
+                <label>
+                    <p>Дата рождения</p><input type="date" name="date" required>
+                </label>
+                <p><label>Пол</label></p>
+                <label><input type="radio" name="radio" value="1">Ж</label>
+                <label><input type="radio" name="radio" value="2">М</label>
+                <lable for="password">
+                    <p>Пароль</p><input type="password" name="password" id="password" required>
+                </lable>
+                </p>
+            </fieldset>
+            <fieldset class="fieldset">
+                <legend>Контактная информация</legend>
+                <label>
+                    <p>Email</p><input type="email" name="email" placeholder="Введите email" required>
+                </label>
+                <label>
+                    <p>Телефон</p><input type="tel" name="tel" placeholder="Номер телефона">
+                </label>
+                <label>
+                    <p>Удобный интервал для связи</p>
+                </label><select name="quantity" required>
+                    <option value="1">утро</option>
+                    <option value="2">день</option>
+                    <option value="3">вечер</option>
+                    <option value="4">ночь</option>
+                </select>
+            </fieldset>
+            <button type="submit" class="but_form">Отправить<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 960 960" width="30"
+                    height="30">
+                    <path
+                        d="m 561 814 l -43 -42 l 168 -168 H 160 v -60 h 526 L 517 375 l 43 -42 l 241 241 l -240 240 Z" />
+                </svg></button>
+            <button type="reset" class="but_form reset">Очистить</button>
+        </form>
+    </main>
+    <footer>
+        <a href="#"><img src="" alt="" /></a>
+        <a href="#"><img src="" alt="" /></a>
+        <a href="#"><img src="" alt="" /></a>
+        <div class="footer">
+            <div class="terms_and_policy">
+                <a href="#">Terms of Use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <p class="end">© CloudFlex 2019. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
