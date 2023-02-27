@@ -172,7 +172,7 @@ a {
   margin-top: 4.6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 2rem;
+  grid-column-gap: 6rem;
   grid-row-gap: 3.5rem;
   box-sizing: border-box;
 }
@@ -187,8 +187,7 @@ a {
 }
 
 .howcards {
-  width: 16rem;
-  height: 17rem;
+  max-width: 18rem;
   padding: 0.5rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 2rem;
@@ -376,8 +375,9 @@ ul {
   box-sizing: border-box;
   height: 10.5rem;
   padding: 2.3rem 6.4rem 2.72rem 2.9rem;
-  background: rgba(255, 255, 255, 0.15);
+  max-width: 50rem;
 }
+
 
 .end {
   margin: 0;
@@ -389,6 +389,7 @@ ul {
 }
 
 footer {
+  background: rgba(255, 255, 255, 0.15);
   position: sticky;
   top: 100vh;
 }
